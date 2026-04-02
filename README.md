@@ -1,2 +1,19 @@
-# LangGraph-based-Policy-aware-RAG-Chatbot
-LangGraph based Policy-aware RAG Chatbot
+# Policy-aware RAG 챗봇 (LangGraph)
+
+## 개요
+이 프로젝트는 정책 메타데이터를 반영한 RAG 파이프라인을 구성하고, Hybrid Retrieval(Vector + BM25)과 평가를 함께 수행하는 실험 노트북입니다.
+
+## 포함 파일
+- `RAG_LangGraph_Policy_Hybrid_Eval_v2_3.ipynb`: 데이터 로딩, 인덱스 구성, 검색/생성 파이프라인, 평가 코드 포함
+
+## 실행 환경
+- Python 3.10+
+- GPU 권장
+- 노트북 내부에서 필요한 패키지 설치 셀이 포함되어 있습니다.
+
+## 실행 순서
+1. 노트북을 열고 위에서 아래로 순서대로 실행
+2. 데이터셋 경로 셀에서 로컬 환경에 맞게 경로 확인
+3. 평가 셀 실행 후 결과 저장 파일 확인
+
+
